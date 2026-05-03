@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Edugate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Edugate</h1>
+        <hr>
+    </header>
+
+
+
+    <main>
+        <section>
+            <header>
+                <h2>Create New Account</h2>
+                <p>Please fill in the following information</p>
+            </header>
+            <form id="signupForm">
+
+                    <fieldset>
+                        <legend>Basic Information</legend>
+
+                        <label>Full Name:</label>
+                        <input type="text" required>
+
+                        <label >Email:</label>
+                        <input type="email" id="signupEmail" required>
+
+                        <label>Password:</label>
+                        <input type="password" id="signupPassword" required>
+
+                        <label>Confirm Password:</label>
+                        <input type="password" id="confirmPassword" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+
+                        <label>Gender:</label><br>
+                        <input type="radio" name="gender"> Male<br>
+                        <input type="radio" name="gender"> Female
+
+                        <br><br>
+
+                        <label>Phone Number:</label>
+                        <input type="text">
+                    </fieldset>
+
+                    <input type="submit" value="Sign Up">
+                    <input type="reset" value="Reset">
+                </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; Edugate</p>
+    </footer>
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

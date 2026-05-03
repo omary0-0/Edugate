@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Student Profile | Edugate</title>
+</head>
+
+<body>
+    <header>
+        <h1>Edugate</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="materials.html">Materials</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <div class="profile-container">
+        <div class="profile-card">
+            <!-- Profile Header Section -->
+            <div class="profile-header">
+                <img src="https://ui-avatars.com/api/?name=John+Doe&size=150&background=random" class="profile-img"
+                    alt="Profile Picture">
+                <h1>John Doe</h1>
+                <p class="major">Computer Science Major</p>
+                <p class="student-id">Student ID: #EDU-88291</p>
+                <button class="btn-edit">Edit Profile</button>
+            </div>
+
+            <!-- Contact Information Section -->
+            <div class="info-section">
+                <h2>Contact Information</h2>
+                <div class="info-row">
+                    <span class="info-label">Email:</span>
+                    <span class="info-value">john.doe@university.edu</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Phone:</span>
+                    <span class="info-value">+1 (555) 0123-456</span>
+                </div>
+            </div>
+
+            <!-- Academic Progress Section -->
+            <div class="info-section">
+                <h2>Academic Progress</h2>
+                <div class="info-row">
+                    <span class="info-label">GPA:</span>
+                    <span class="info-value">3.8/4.0</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Courses Enrolled:</span>
+                    <span class="info-value">5</span>
+                </div>
+            </div>
+
+            <!-- About Me Section -->
+            <div class="info-section">
+                <h2>About Me</h2>
+                <p class="about-text">
+                    Passionate student with a strong interest in Full Stack Development and AI.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Edugate</p>
+        <address>
+            <a href="about.html">More about us</a>
+        </address>
+                <a href="https://www.facebook.com/" class="myFacebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com/" class="myTwitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" class="myLinkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/" class="myYoutube"><i class="fa fa-youtube"></i></a>
+    </footer>
+
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

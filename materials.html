@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="myHead">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edugate | Materials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Edugate</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html">My Profile</a></li>
+                <li><a href="details.html">Details</a></li>
+                <input type="text" id="mySearch" placeholder="Search for materials">
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <div id="myDiv">
+        <div class="materials-container">
+            <h1 id="my_h1">Available Materials</h1>
+            <p id="my_p">Select a subject to show its contents</p>
+            <div class="myMaterials">
+                <a href="resources/math.pdf" target="myFrame" onclick="location.href='#myFrame'">
+                    <h1>Math</h1>
+                    <p class="myP">Calculus, Algebra, Sequences & Series</p>
+                </a>
+            </div>
+            <div class="myMaterials">
+                <a href="resources/pl.pdf" target="myFrame" onclick="location.href='#myFrame'">
+                    <h1>Programming Language</h1>
+                    <p class="myP">Java, Python, C & C++</p>
+                </a>
+            </div>
+            <div class="myMaterials">
+                <a href="resources/stat.pdf" target="myFrame" onclick="location.href='#myFrame'">
+                    <h1>Statistics & Probability</h1>
+                    <p class="myP">Population, Distribution, Statistics & Parameters</p>
+                </a>
+            </div>
+            <div class="myMaterials">
+                <a href="resources/dm.pdf" target="myFrame" onclick="location.href='#myFrame'">
+                    <h1>Discrete Math</h1>
+                    <p class="myP">Functions, Logic, Sets & Relations</p>
+                </a>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <p>&copy; Edugate</p>
+            <address>
+                <a href="about.html">More about us</a>
+            </address>
+            <a href="https://www.facebook.com/" class="myFacebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" class="myTwitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" class="myLinkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/" class="myYoutube"><i class="fa fa-youtube"></i></a>
+        </footer>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+        <script src="script.js"></script>
+</body>
+</html>
